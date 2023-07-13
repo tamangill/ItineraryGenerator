@@ -10,6 +10,5 @@ public class ItineraryGeneratorApplication {
 
 	public static void main(String[] args) {
 		SpringApplication.run(ItineraryGeneratorApplication.class, args);
-	}	
-	
+	}		
 }

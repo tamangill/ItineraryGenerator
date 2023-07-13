@@ -1,3 +1,7 @@
+/* Taman Gill Copyright 2023
+ * This class uses the attraction and hotles list to 
+ * create an inital itineray.
+ */
 package com.example.ItineraryGenerator;
 
 import java.util.List;
@@ -12,7 +16,6 @@ public class Itinerary {
     }
 
     // Getters and setters for attractions and hotels
-
     public List<Attraction> getAttractions() {
         return attractions;
     }

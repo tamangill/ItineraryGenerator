@@ -1,3 +1,8 @@
+/* Taman Gill Copyright 2023
+ * This file contains the ItineraryController class, which serves as the RESTful API
+ * controller for generating itineraries based on a given location. It handles the
+ * incoming HTTP requests and delegates the processing to the ItineraryService.
+ */
 package com.example.ItineraryGenerator.controller;
 
 import org.springframework.beans.factory.annotation.Autowired;

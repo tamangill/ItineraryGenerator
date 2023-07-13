@@ -1,3 +1,9 @@
+/* Taman Gill Copyright 2023
+ * This file contains the ItineraryService class, which is responsible for generating
+ * an itinerary based on a given location. It interacts with the Google Maps API to
+ * retrieve attractions and hotels near the specified location. The generated itinerary
+ * consists of a list of attractions and hotels.
+ */
 package com.example.ItineraryGenerator.service;
 
 import java.io.BufferedReader;

@@ -1,3 +1,7 @@
+/* Taman Gill Copyright 2023
+ * This class represents a hotel with the information 
+ * need to create an itinerary. 
+ */
 package com.example.ItineraryGenerator;
 
 public class Hotels {
@@ -12,7 +16,6 @@ public class Hotels {
     }
 
     // Getters and setters for the attributes
-
     public String getName() {
         return name;
     }

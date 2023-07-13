@@ -1,3 +1,8 @@
+/* Taman Gill Copyright 2023 
+ * This class is responsible for testing the itinerary created
+ *  by printing the lists on to terminal.
+ */
+
 package com.example.ItineraryGenerator;
 
 import java.util.ArrayList;
@@ -61,7 +66,6 @@ public class ItineraryGenerator {
                 }
             }
         }
-
         return selectedAttractions;
     }
 }

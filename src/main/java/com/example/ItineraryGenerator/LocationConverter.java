@@ -1,3 +1,9 @@
+/* Taman Gill Copyright 2023 
+ *  This class uses the Google geocoding api to convert the user enterd location 
+ *  which can be in coordintes, zip code, or name and converts all to cooridiantes
+ *  that are used by the Google Places api to find the correct location.
+ */
+
 package com.example.ItineraryGenerator;
 
 import org.json.JSONArray;
@@ -19,7 +25,6 @@ public class LocationConverter {
 
     public double[] getLocationCoordinates(String location) {
         double[] coordinates = new double[2];
-
         try {
             String encodedLocation = URLEncoder.encode(location, StandardCharsets.UTF_8);
             String geocodingApiUrl = "https://maps.googleapis.com/maps/api/geocode/json?address=" + encodedLocation + "&key=" + apiKey;
@@ -53,7 +58,6 @@ public class LocationConverter {
         } catch (IOException e) {
             e.printStackTrace();
         }
-
         return coordinates;
     }
 }
